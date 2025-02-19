@@ -1,1 +1,9 @@
-<p>lista-alunos works!</p>
+<div class="lista-alunos">
+    <h2>Lista de Alunos</h2>
+    <label>Turma:</label>
+    <input [(ngModel)]="turma" name="turma" required>
+    <button (click)="listarAlunos()">Listar Alunos</button>
+  
+    <pre>{{ alunos }}</pre>
+  </div>
+  

@@ -1,0 +1,38 @@
+.lista-alunos {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+  
+.lista-alunos h2 {
+    color: #00796b;
+}
+  
+.lista-alunos label {
+    color: #00796b;
+    font-weight: bold;
+}
+  
+.lista-alunos input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #00796b;
+}
+  
+.lista-alunos button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.lista-alunos pre {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #00796b;
+    border-radius: 4px;
+    color: #00796b;
+}
