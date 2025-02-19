@@ -1,1 +1,24 @@
-<p>cadastro-aluno works!</p>
+<div class="Form-container">
+    <h2>Cadastro de Aluno</h2>
+    <form (ngSubmit)="adicionarAluno()">
+      <div class="form-group" >
+        <label>Nome:</label>
+        <input [(ngModel)]="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label>Idade:</label>
+        <input [(ngModel)]="idade" name="idade" required type="number">
+      </div>
+      <div class="form-group">
+        <label>Matrícula:</label>
+        <input [(ngModel)]="matricula" name="matricula" required>
+      </div>
+      <div>
+        <label>Turma:</label>
+        <input [(ngModel)]="turma" name="turma" required>
+      </div>
+      <button type="submit" class="submit-btn">Cadastrar</button>
+    </form>
+    <a [routerLink]="['/aluno']">Ver Detalhes</a>
+  </div>
+  
