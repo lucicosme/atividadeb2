@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { GerenciamentoService } from '../gerenciamento.service';
 import { Aluno } from '../aluno';
 import { FormsModule } from '@angular/forms';
-
+import {RouterLink} from'@angular/core';
 
 @Component({
   selector: 'app-cadastro-aluno',
   standalone: true,
-  imports: [ FormsModule],
+  imports: [ FormsModule, RouterLink],
   templateUrl: './cadastro-aluno.component.html',
   styleUrl: './cadastro-aluno.component.css'
 })
