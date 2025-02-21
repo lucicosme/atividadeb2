@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { GerenciamentoService } from '../gerenciamento.service';
 import { Aluno } from '../aluno';
 import { FormsModule } from '@angular/forms';
-import {RouterLink} from'@angular/core';
+import {RouterLink} from'@angular/router';
 
 @Component({
   selector: 'app-cadastro-aluno',

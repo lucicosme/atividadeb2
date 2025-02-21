@@ -1,38 +1,63 @@
 .lista-alunos {
-    background-color: #e0f7fa;
+    width: 500px;
     padding: 20px;
+    margin: 50px auto;
+    background-color: #ffffff; 
     border-radius: 8px;
-    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   
-.lista-alunos h2 {
-    color: #00796b;
+h2 {
+    color: #00796b; 
+    text-align: center;
+    margin-bottom: 20px;
 }
   
-.lista-alunos label {
-    color: #00796b;
+label {
     font-weight: bold;
+    margin-bottom: 5px;
+    color: #00796b; 
+    align-self: flex-start;
 }
   
-.lista-alunos input {
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #00796b;
-}
-  
-.lista-alunos button {
-    background-color: #00796b;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-.lista-alunos pre {
-    background-color: #ffffff;
+input {
+    width: 100%;
     padding: 10px;
     border: 1px solid #00796b;
     border-radius: 4px;
-    color: #00796b;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
+  
+button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
+button:hover {
+    background-color: #004d40; 
+}
+  
+pre {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    background-color: #f1f8e9; 
+    border-radius: 4px;
+    border: 1px solid #00796b; 
+    color: #333333; 
+    white-space: pre-wrap; 
+    overflow-wrap: break-word; 
+    font-family: monospace;
+}
+  
